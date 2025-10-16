@@ -6,16 +6,18 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "test": "jest"
   },
   "devDependencies": {
+    "@repo/jest-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/react": "^18.2.14",
     "tsup": "^8.0.1",
     "typescript": "5.5.4"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-native": "0.76.9"
+    "react": "19.1.0",
+    "react-native": "0.81.4"
   }
 }

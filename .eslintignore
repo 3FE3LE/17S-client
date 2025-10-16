@@ -1,0 +1,4 @@
+# Ignore dotfiles
+.*.js
+node_modules/
+dist/

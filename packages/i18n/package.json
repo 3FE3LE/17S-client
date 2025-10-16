@@ -1,0 +1,14 @@
+{
+  "name": "@repo/i18n",
+  "version": "0.0.0",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "lint": "eslint . --max-warnings 0"
+  },
+  "devDependencies": {
+    "@repo/eslint-config-custom": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "typescript": "5.5.4"
+  }
+}
